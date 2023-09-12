@@ -116,4 +116,5 @@ class DiracCluster(JobQueueCluster):  # pylint: disable=missing-class-docstring
     @classmethod
     def from_name(cls, name: str) -> ProcessInterface:
         """Create a cluster from a name"""
+        print('ahahhaa')
         return super().from_name(name)
